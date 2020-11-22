@@ -1,0 +1,39 @@
+Nov 21 21:53:02.044 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 21 21:53:02.047 HYPERVISOR: Started on IP = localhost, TCP port = 60468.
+Nov 21 21:53:02.444 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 21 21:53:02.445 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Cesar Sazo\GNS3\projects\Redes1-Proyecto_Grupo25\project-files\dynamips 
+Nov 21 21:53:02.832 GENERAL: working_dir=C:\Users\Cesar Sazo\GNS3\projects\Redes1-Proyecto_Grupo25\project-files\dynamips
+Nov 21 21:53:02.833 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Cesar Sazo\GNS3\projects\Redes1-Proyecto_Grupo25\project-files\dynamips\b0098968-1e11-405c-8c08-b72a199512e2 
+Nov 21 21:53:02.835 GENERAL: working_dir=C:\Users\Cesar Sazo\GNS3\projects\Redes1-Proyecto_Grupo25\project-files\dynamips\b0098968-1e11-405c-8c08-b72a199512e2
+Nov 21 21:53:02.835 HYPERVISOR: exec_cmd: vm create Nucleo1 2 c3725 
+Nov 21 21:53:02.896 VM: VM Nucleo1 created.
+Nov 21 21:53:02.929 HYPERVISOR: exec_cmd: vm set_con_tcp_port Nucleo1 5001 
+Nov 21 21:53:02.929 HYPERVISOR: exec_cmd: c3725 get_mac_addr Nucleo1 
+Nov 21 21:53:02.930 HYPERVISOR: exec_cmd: vm set_disk0 Nucleo1 0 
+Nov 21 21:53:02.931 HYPERVISOR: exec_cmd: vm set_exec_area Nucleo1 64 
+Nov 21 21:53:02.932 HYPERVISOR: exec_cmd: vm get_status Nucleo1 
+Nov 21 21:53:02.933 HYPERVISOR: exec_cmd: vm set_idle_pc Nucleo1 0x602467a4 
+Nov 21 21:53:02.972 HYPERVISOR: exec_cmd: vm set_ios Nucleo1 C:/Users/Cesar Sazo/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Nov 21 21:53:02.974 HYPERVISOR: exec_cmd: c3725 set_mac_addr Nucleo1 c202.2b44.0000 
+Nov 21 21:53:02.997 HYPERVISOR: exec_cmd: vm set_nvram Nucleo1 256 
+Nov 21 21:53:02.998 HYPERVISOR: exec_cmd: vm get_status Nucleo1 
+Nov 21 21:53:02.999 HYPERVISOR: exec_cmd: vm slot_add_binding Nucleo1 1 0 NM-16ESW 
+Nov 21 21:53:03.000 HYPERVISOR: exec_cmd: vm slot_add_binding Nucleo1 0 16 WIC-2T 
+Nov 21 21:53:10.046 HYPERVISOR: exec_cmd: nio create_udp udp-e12e9209-56d6-498e-83bf-a5dac8710349 10004 127.0.0.1 10005 
+Nov 21 21:53:10.854 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Nucleo1 0 0 udp-e12e9209-56d6-498e-83bf-a5dac8710349 
+Nov 21 21:53:10.855 HYPERVISOR: exec_cmd: vm get_status Nucleo1 
+Nov 21 21:53:12.027 HYPERVISOR: exec_cmd: nio create_udp udp-7a2142d4-f39b-4172-91b9-4fbe92f1591f 10014 127.0.0.1 10015 
+Nov 21 21:53:12.040 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Nucleo1 0 1 udp-7a2142d4-f39b-4172-91b9-4fbe92f1591f 
+Nov 21 21:53:12.042 HYPERVISOR: exec_cmd: vm get_status Nucleo1 
+Nov 21 21:53:18.149 HYPERVISOR: exec_cmd: nio create_udp udp-6e1ea465-1f0f-4d32-b8ce-595ea8614280 10098 127.0.0.1 10099 
+Nov 21 21:53:18.158 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Nucleo1 1 0 udp-6e1ea465-1f0f-4d32-b8ce-595ea8614280 
+Nov 21 21:53:18.159 HYPERVISOR: exec_cmd: vm get_status Nucleo1 
+Nov 21 21:58:51.469 HYPERVISOR: exec_cmd: vm get_status Nucleo1 
+Nov 21 21:58:51.476 HYPERVISOR: exec_cmd: vm extract_config Nucleo1 
+Nov 21 21:58:53.971 HYPERVISOR: exec_cmd: vm get_status Nucleo1 
+Nov 21 21:58:53.973 HYPERVISOR: exec_cmd: vm extract_config Nucleo1 
+Nov 21 21:58:53.975 HYPERVISOR: exec_cmd: vm delete Nucleo1 
+Nov 21 21:58:53.975 VM: VM Nucleo1 destroyed.
+Nov 21 21:58:53.978 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 21 21:58:54.434 HYPERVISOR: Stopped.
+Nov 21 21:58:54.434 GENERAL: reset done.
